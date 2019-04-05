@@ -1,0 +1,271 @@
+﻿@using XmlAttributeExtractor;
+@using System.Xml;
+
+
+@{
+    ViewBag.Title = "Olife";
+}
+
+
+@Styles.Render("~/Content/Tables.css")
+<table class="table">
+
+    <tr></tr>
+
+    @{
+        <tr class="NoColor"><Matched Party<</tr>
+        XmlExtractor extractor = new XmlExtractor((string)ViewData["Olife"]);
+
+        XmlNodeList Partys = extractor.ExtractNodes("Party");
+        foreach (XmlNode Party in Partys)
+        {
+            XmlNodeList OLifEExtensions = extractor.ExtractNodes("OLifEExtension", Party);
+
+            if (OLifEExtensions.Count > 0)
+            {
+                foreach (XmlNode OLifEExtension in OLifEExtensions)
+                {
+                    var MatchedParty = extractor.ExtractString("MatchedParty", OLifEExtension.ChildNodes);
+
+                    if (MatchedParty != string.Empty)
+                    {
+                        if (Convert.ToBoolean(MatchedParty) == true)
+                        {
+                            XmlNode Persons = extractor.ExtractNodes("Person", Party)[0];
+
+
+                            <tr >
+                                <th>Prefix</th>
+                                <th>Initials</th>
+                                <th>FirstName</th>
+                                <th>LastName</th>
+                                <th>MarStat</th>
+                                <th>Gender</th>
+                                <th>BirthDate</th>
+                            </tr>
+
+
+                            var FirstName = extractor.ExtractString("FirstName", Persons.ChildNodes);
+                            var LastName = extractor.ExtractString("LastName", Persons.ChildNodes);
+                            var Initials = extractor.ExtractString("Initials", Persons.ChildNodes);
+                            var Prefix = extractor.ExtractString("Prefix", Persons.ChildNodes);
+                            var MarStat = extractor.ExtractString("MarStat", Persons.ChildNodes);
+                            var Gender = extractor.ExtractString("Gender", Persons.ChildNodes);
+                            var BirthDate = extractor.ExtractString("BirthDate", Persons.ChildNodes);
+
+                            <tr>
+                                <td>@Initials</td>
+                                <td>@Prefix</td>
+                                <td>@FirstName</td>
+                                <td>@LastName</td>
+                                <td>@MarStat</td>
+                                <td>@Gender</td>
+                                <td>@BirthDate</td>
+                            </tr>
+
+
+                            break;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+
+        XmlNodeList holdings = extractor.ExtractNodes("Holding");
+
+        foreach (XmlNode holding in holdings)
+        {
+            <tr>
+                <th>HoldingName</th>
+                <th>HoldingTypeCode</th>
+                <th>CurrencyTypeCode</th>
+            </tr>
+
+
+            var HoldingName = extractor.ExtractString("HoldingName", holding.ChildNodes);
+            var HoldingTypeCode = extractor.ExtractString("HoldingTypeCode", holding.ChildNodes);
+            var CurrencyTypeCode = extractor.ExtractString("CurrencyTypeCode", holding.ChildNodes);
+
+
+            <tr>
+                <td>@HoldingName</td>
+                <td>@HoldingTypeCode</td>
+                <td>@CurrencyTypeCode</td>
+            </tr>
+
+            <tr><th></th ><th >Policy</th></tr>
+
+
+            XmlNodeList policys = extractor.ExtractNodes("Policy", holding);
+            foreach (XmlNode policy in policys)
+            {
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>PolNumber</th>
+                    <th>LineOfBusiness</th>
+                    <th>ProductType</th>
+                    <th>PolicyStatus</th>
+                    <th>EffDate</th>
+                    <th>TermDate</th>
+                </tr>
+                var PolNumber = extractor.ExtractString("PolNumber", policy.ChildNodes);
+                var LineOfBusiness = extractor.ExtractString("LineOfBusiness", policy.ChildNodes);
+                var ProductType = extractor.ExtractString("ProductType", policy.ChildNodes);
+                var PolicyStatus = extractor.ExtractString("PolicyStatus", policy.ChildNodes);
+                var EffDate = extractor.ExtractString("EffDate", policy.ChildNodes);
+                var TermDate = extractor.ExtractString("TermDate", policy.ChildNodes);
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>@PolNumber</td>
+                    <td>@LineOfBusiness</td>
+                    <td>@ProductType</td>
+                    <td>@PolicyStatus</td>
+                    <td>@EffDate</td>
+                    <td>@TermDate</td>
+                </tr>
+
+                <tr><th></th><th>Life</th></tr>
+
+                XmlNodeList Lifes = extractor.ExtractNodes("Life", policy);
+                foreach (XmlNode life in Lifes)
+                {
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>CashValueAmt</th>
+                        <th>DeathBenefitAmt</th>
+                    </tr>
+
+                    var CashValueAmt = extractor.ExtractString("CashValueAmt", life.ChildNodes);
+                    var DeathBenefitAmt = extractor.ExtractString("DeathBenefitAmt", life.ChildNodes);
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>@CashValueAmt</td>
+                        <td>@DeathBenefitAmt</td>
+                    </tr>
+
+                    <tr><th></th><th>Life Coverage</th></tr>
+                    XmlNodeList Coverages = extractor.ExtractNodes("Coverage", life);
+                    foreach (XmlNode Coverage in Coverages)
+                    {
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>PlanName</th>
+                            <th>ProductCode</th>
+                            <th>LifeCovStatus</th>
+                            <th>LifeCovTypeCode</th>
+                            <th>IndicatorCode</th>
+                            <th>CashValue</th>
+                            <th>CoverageEffDate</th>
+                            <th>CoverageTermDate</th>
+                        </tr>
+
+                        var PlanName = extractor.ExtractString("PlanName", Coverage.ChildNodes);
+                        var ProductCode = extractor.ExtractString("ProductCode", Coverage.ChildNodes);
+                        var LifeCovStatus = extractor.ExtractString("LifeCovStatus", Coverage.ChildNodes);
+                        var LifeCovTypeCode = extractor.ExtractString("LifeCovTypeCode", Coverage.ChildNodes);
+                        var IndicatorCode = extractor.ExtractString("IndicatorCode", Coverage.ChildNodes);
+                        var CashValue = extractor.ExtractString("CashValue", Coverage.ChildNodes);
+                        var CoverageEffDate = extractor.ExtractString("EffDate", Coverage.ChildNodes);
+                        var CoverageTermDate = extractor.ExtractString("TermDate", Coverage.ChildNodes);
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>@PlanName</td>
+                            <td>@ProductCode</td>
+                            <td>@LifeCovStatus</td>
+                            <td>@LifeCovTypeCode</td>
+                            <td>@IndicatorCode</td>
+                            <td>@CashValue</td>
+                            <td>@CoverageEffDate</td>
+                            <td>@CoverageTermDate</td>
+                        </tr>
+
+                    }
+
+                }
+            }
+
+            <tr><th></th><th>Investment</th></tr>
+
+            XmlNodeList Investments = extractor.ExtractNodes("Investment", holding);
+            foreach (XmlNode Investment in Investments)
+            {
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th>AcctNum</th>
+                    <th>AcctOpenDate</th>
+                    <th>CarrierCode</th>
+                    <th>AccountValue</th>
+                </tr>
+
+                var AcctNum = extractor.ExtractString("AcctNum", Investment.ChildNodes);
+                var AcctOpenDate = extractor.ExtractString("AcctOpenDate", Investment.ChildNodes);
+                var CarrierCode = extractor.ExtractString("CarrierCode", Investment.ChildNodes);
+                var AccountValue = extractor.ExtractString("AccountValue", Investment.ChildNodes);
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>@AcctNum</td>
+                    <td>@AcctOpenDate</td>
+                    <td>@CarrierCode</td>
+                    <td>@AccountValue </td>
+                </tr>
+
+                <tr><th></th><th>SubAccount</th></tr>
+                XmlNodeList SubAccounts = extractor.ExtractNodes("SubAccount", Investment);
+                foreach (XmlNode SubAccount in SubAccounts)
+                {
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>SubAccountCarrierCode</th>
+                        <th>ProductFullName</th>
+                        <th>PortfolioFullName</th>
+                        <th>AsOfDate</th>
+                        <th>CurrNumberUnits</th>
+                        <th>UnitValue</th>
+                        <th>TotValue</th>
+                        <th>AllocPercent</th>
+                    </tr>
+
+                    var SubAccountCarrierCode = extractor.ExtractString("CarrierCode", SubAccount.ChildNodes);
+                    var ProductFullName = extractor.ExtractString("ProductFullName", SubAccount.ChildNodes);
+                    var PortfolioFullName = extractor.ExtractString("PortfolioFullName", SubAccount.ChildNodes);
+                    var AsOfDate = extractor.ExtractString("AsOfDate", SubAccount.ChildNodes);
+                    var CurrNumberUnits = extractor.ExtractString("CurrNumberUnits", SubAccount.ChildNodes);
+                    var UnitValue = extractor.ExtractString("UnitValue", SubAccount.ChildNodes);
+                    var TotValue = extractor.ExtractString("TotValue", SubAccount.ChildNodes);
+                    var AllocPercent = extractor.ExtractString("AllocPercent", SubAccount.ChildNodes);
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>@SubAccountCarrierCode</td>
+                        <td>@ProductFullName</td>
+                        <td>@PortfolioFullName</td>
+                        <td>@AsOfDate</td>
+                        <td>@CurrNumberUnits</td>
+                        <td>@UnitValue</td>
+                        <td>@TotValue</td>
+                        <td>@AllocPercent</td>
+                    </tr>
+
+                }
+            }
+            <tr></tr>
+        }
+    }
+</table>
+

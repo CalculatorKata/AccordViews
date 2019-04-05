@@ -1,0 +1,472 @@
+<TXLife>
+	<TXLifeResponse>
+		<VendorName tc="OMUL"/>
+		<TransRefGUID>F895EFE7-0AFB-4D1D-9B9B-000023792044</TransRefGUID>
+		<TransType tc="280"/>
+		<TransResult>
+			<ResultCode tc="1">Success</ResultCode>
+		</TransResult>
+		<OLifE>
+			<Holding id="OMU_Holding_1">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>GREENLIGHT Death Benefit/1</HoldingName>
+				<HoldingStatus tc="1">Active</HoldingStatus>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy CarrierPartyID="OMU_Party_4">
+					<PolNumber>15626408/LSD/1x</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="1">Whole Life</ProductType>
+					<ProductCode>LSD/1</ProductCode>
+					<CarrierCode>OMU</CarrierCode>
+					<PolicyStatus tc="1">Active</PolicyStatus>
+					<EffDate>2009-03-01</EffDate>
+					<StatusChangeDate>2009-03-01</StatusChangeDate>
+					<PaymentMode tc="4">Monthly</PaymentMode>
+					<PaymentAmt>1199.00</PaymentAmt>
+					<PaymentMethod tc="10">Debit Order</PaymentMethod>
+					<PaymentDueDate>2012-03-01</PaymentDueDate>
+					<!-- =============================================================== -->
+					<!-- AnnualIndexType 9                                                                                                -->
+					<!-- =============================================================== -->
+					<PremiumIndexRate>8.00</PremiumIndexRate>
+					<AnnualIndexType tc="9">Age-Profiled Pattern</AnnualIndexType>
+					<!-- =============================================================== -->
+					<!--  New Tags  CoverIndexRate and AnnualCoverIndex                                            -->
+					<!-- =============================================================== -->
+					<CoverIndexRate>3.00</CoverIndexRate>
+					<AnnualCoverIndexType tc="4">Level</AnnualCoverIndexType>
+					<Life>
+						<QualPlanType tc="0">Unknown</QualPlanType>
+						<DeathBenefitAmt>1102500.00</DeathBenefitAmt>
+						<!-- =============================================================== -->
+						<!--  New Tag PolicyReviewDate                                                                                 -->
+						<!-- =============================================================== -->
+						<PolicyReviewDate>2013-06-30</PolicyReviewDate>
+						<Coverage id="OMU_Coverage_1" CarrierLicenseID="OMU_License_1">
+							<PlanName>Death Benefit</PlanName>
+							<ProductCode>LSD</ProductCode>
+							<LifeCovTypeCode tc="1">Whole Life Ordinary</LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<LivesType tc="0">Unknown</LivesType>
+							<!-- =============================================================== -->
+							<!-- New - DeathBenefitOptType = Include/Excluding Funeral Benefit                         -->
+							<!-- =============================================================== -->
+							<DeathBenefitOptType tc="2">Includes FB</DeathBenefitOptType>
+							<CurrentAmt>1102500.00</CurrentAmt>
+							<ModalPremAmt>1199.00</ModalPremAmt>
+							<EffDate>2009-03-01</EffDate>
+       						<CovOption id="OMU_CovOption_1" CarrierLicenseID="OMU_License_1">
+								<PlanName>EXTENSIVE ILLNESS BENEFIT</PlanName>
+								<ProductCode>LSEI</ProductCode>
+								<ProductVersionCode>TRADE-UP</ProductVersionCode>
+								<LifeCovOptTypeCode tc="101">Dread Disease</LifeCovOptTypeCode>
+								<OptionAmt>253575.00</OptionAmt>
+								<EffDate>2009-03-01</EffDate>
+								<!-- =============================================================== -->
+								<!-- New - NetCurrentAmt                                                                                             -->
+								<!-- =============================================================== -->
+								<NetCurrentAmt>250000.00</NetCurrentAmt>
+							</CovOption>
+							<CovOption id="OMU_CovOption_2" CarrierLicenseID="OMU_License_1">
+								<PlanName>COMPREHENSIVE DISABILITY (OWN) BENEFIT</PlanName>
+								<ProductCode>LSEODB</ProductCode>
+								<LifeCovOptTypeCode tc="7">Disability Lump Sum</LifeCovOptTypeCode>
+								<OptionAmt>413437.50</OptionAmt>
+								<EffDate>2009-03-01</EffDate>
+								<TermDate>2015-02-28</TermDate>
+								<BenefitPeriod tc="47">Maximum Benefit Period Available</BenefitPeriod>
+								<BenefitLimit id="OMU_BenefitLimit_1">
+									<LimitVariation id="OMU_LimitVariation_1">
+										<BenefitChangeType tc="1">No Change</BenefitChangeType>
+									</LimitVariation>
+								</BenefitLimit>
+							</CovOption>
+							<CovOption id="OMU_CovOption_3" CarrierLicenseID="OMU_License_1">
+								<LifeCovOptTypeCode tc="4">Benefit Increase Provision</LifeCovOptTypeCode>
+								<CovOptionPctInd tc="1">True</CovOptionPctInd>
+								<OptionPct>15.00</OptionPct>
+								<!-- =============================================================== -->
+								<!-- New tc = 15 ABI applie to ACI                                                                                -->
+								<!-- =============================================================== -->
+								<AnnualIndexType tc="15">ABI is applied to the ACI</AnnualIndexType>
+							</CovOption>
+								<CovOption id="OMU_CovOption_33" CarrierLicenseID="OMU_License_1">
+								<LifeCovOptTypeCode tc="51">Automatic Index Linked Premium Increase</LifeCovOptTypeCode>
+								<CovOptionPctInd tc="1">True</CovOptionPctInd>
+								<OptionPct>16.00</OptionPct>
+								<!-- =============================================================== -->
+								<!-- New tc = 16 ACI applie to ABI                                                                                -->
+								<!-- =============================================================== -->
+								<AnnualIndexType tc="16">ACI is applied to the ABI</AnnualIndexType>
+							</CovOption>							
+							
+							<LifeParticipant id="OMU_LifeParticipant_1" MailingAddressID="OMU_Address_1" PartyID="OMU_Party_1">
+								<LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+							</LifeParticipant>
+							<!-- =============================================================== -->
+							<!-- New - NetCurrentAmt                                                                                             -->
+							<!-- =============================================================== -->
+							<NetCurrentAmt>1100000.00</NetCurrentAmt>							
+						</Coverage>
+						<Coverage id="OMU_Coverage_2">
+							<PlanName>INCOME PROTECTION</PlanName>
+							<LifeCovStatus tc="1">IN FORCE</LifeCovStatus>
+							<!-- =============================================================== -->
+							<!-- New benefit tc = 140 Maternity Pause                                                                   -->
+							<!-- =============================================================== -->
+							<LifeCovTypeCode tc="140">Maternity Leave Income</LifeCovTypeCode>
+							<IndicatorCode tc="2">Rider</IndicatorCode>
+							<CurrentAmt>17814.64</CurrentAmt>
+							<EffDate>2011-09-01</EffDate>
+							<TermDate>2032-08-01</TermDate>
+						</Coverage>
+						<Coverage id="OMU_Coverage_3">
+							<PlanName>INCOME PROTECTION</PlanName>
+							<LifeCovStatus tc="1">IN FORCE</LifeCovStatus>
+							<!-- =============================================================== -->
+							<!-- New benefit tc = 143 Spouse or Child Critical Illness                                             -->
+							<!-- =============================================================== -->
+							<LifeCovTypeCode tc="143">Spouse or Child Critical Illness</LifeCovTypeCode>
+							<IndicatorCode tc="2">Rider</IndicatorCode>
+							<CurrentAmt>20000.00</CurrentAmt>
+							<EffDate>2011-09-01</EffDate>
+							<TermDate>2032-08-01</TermDate>
+						</Coverage>
+					</Life>
+				</Policy>
+				
+<!--				
+				<Arrangement id="OMU_Arrangement_1">
+					<ArrType tc="57">Cover Index</ArrType>
+					<NextActivityDate>2012-03-01</NextActivityDate>
+				</Arrangement>
+-->
+			</Holding>
+			<Holding id="OMU_Holding_2">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>OLD MUTUAL MAX INVESTMENTS Flexible Investment Plan/1</HoldingName>
+				<HoldingStatus tc="1">Active</HoldingStatus>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy CarrierPartyID="OMU_Party_4">
+					<PolNumber>15627473/FLEXINV/1</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="33">Open-ended Investment</ProductType>
+					<ProductCode>FLEXINV/1</ProductCode>
+					<CarrierCode>OMU</CarrierCode>
+					<PolicyStatus tc="1">Active</PolicyStatus>
+					<EffDate>2009-02-01</EffDate>
+					<StatusChangeDate>2009-02-01</StatusChangeDate>
+					<PaymentMode tc="4">Monthly</PaymentMode>
+					<PaymentAmt>2000.00</PaymentAmt>
+					<PaymentMethod tc="10">Debit Order</PaymentMethod>
+					<PaymentDueDate>2012-03-01</PaymentDueDate>
+					<PremiumIndexRate>6.00</PremiumIndexRate>
+					<!-- =============================================================== -->
+					<!-- New tc = 14 Aggressive Age-Profiled pattern                                                       -->
+					<!-- =============================================================== -->
+					<AnnualIndexType tc="14">Aggressive Age-profiled pattern</AnnualIndexType>
+					<Life>
+						<QualPlanType tc="0">Unknown</QualPlanType>
+						<TotCumPremAmt>55500.00</TotCumPremAmt>
+						<MaxAvailableLoan>57429.42</MaxAvailableLoan>
+						<NetSurrValueAmt>57429.42</NetSurrValueAmt>
+						<CashValueAmt>57622.85</CashValueAmt>
+						<Coverage id="OMU_Coverage_32" CarrierLicenseID="OMU_License_1">
+							<PlanName>Flexible Investment Plan</PlanName>
+							<ProductCode>FLEXINV</ProductCode>
+							<LifeCovTypeCode tc="50">Open-ended Investment</LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<LivesType tc="0">Unknown</LivesType>
+							<ModalPremAmt>2000.00</ModalPremAmt>
+							<EffDate>2009-02-01</EffDate>
+						</Coverage>
+					</Life>
+				</Policy>
+				<Investment id="OMU_Investment_1" CarrierPartyID="OMU_Party_4">
+					<AcctNum>15627473/FLEXINV/1</AcctNum>
+					<AcctOpenDate>2009-02-01</AcctOpenDate>
+					<CarrierCode>OMU</CarrierCode>
+					<AccountValue>57622.85</AccountValue>
+					<SubAccount id="OMU_SubAccount_1" CarrierPartyID="OMU_Party_4">
+						<CarrierCode>OMU</CarrierCode>
+						<ProductFullName>Allan Gray Balanced Fund</ProductFullName>
+						<PortfolioFullName>Allan Gray Balanced Fund</PortfolioFullName>
+						<AsOfDate>2012-02-16</AsOfDate>
+						<CurrNumberUnits>241.446</CurrNumberUnits>
+						<UnitValue>61.54100</UnitValue>
+						<TotValue>14858.83</TotValue>
+						<AllocPercent>25.00</AllocPercent>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+					<SubAccount id="OMU_SubAccount_2" CarrierPartyID="OMU_Party_4">
+						<CarrierCode>OMU</CarrierCode>
+						<ProductFullName>Cor Bal Defensive Fund A Class</ProductFullName>
+						<PortfolioFullName>Cor Bal Defensive Fund A Class</PortfolioFullName>
+						<AsOfDate>2012-02-16</AsOfDate>
+						<CurrNumberUnits>20949.220</CurrNumberUnits>
+						<UnitValue>1.30010</UnitValue>
+						<TotValue>27236.08</TotValue>
+						<AllocPercent>50.00</AllocPercent>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+					<SubAccount id="OMU_SubAccount_3" CarrierPartyID="OMU_Party_4">
+						<CarrierCode>OMU</CarrierCode>
+						<ProductFullName>Old Mutual Money Market Fund (LIFE)</ProductFullName>
+						<PortfolioFullName>Old Mutual Money Market Fund (LIFE)</PortfolioFullName>
+						<AsOfDate>2012-02-17</AsOfDate>
+						<CurrNumberUnits>6603.558</CurrNumberUnits>
+						<UnitValue>2.35145</UnitValue>
+						<TotValue>15527.94</TotValue>
+						<AllocPercent>25.00</AllocPercent>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+					<SubAccount id="OMU_SubAccount_4" CarrierPartyID="OMU_Party_4">
+						<CarrierCode>OMU</CarrierCode>
+						<ProductFullName>Wealth Defender Fund</ProductFullName>
+						<PortfolioFullName>Wealth Defender Fund</PortfolioFullName>
+						<AsOfDate>2012-02-17</AsOfDate>
+						<UnitValue>2.41093</UnitValue>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+				</Investment>
+				<Intent id="OMU_Intent_1">
+					<NeedName>Savings</NeedName>
+				</Intent>
+			</Holding>
+			<Party id="OMU_Party_1">
+				<FullName>MR ALEX LION</FullName>
+				<IDReferenceNo>5210275720084</IDReferenceNo>
+				<IDReferenceType tc="4">National id doc (SA)</IDReferenceType>
+				<Person>
+					<FirstName>ALEX</FirstName>
+					<LastName>LION</LastName>
+					<Initials>A</Initials>
+					<Prefix>MR</Prefix>
+					<MarStat tc="1">MARRIED</MarStat>
+					<Gender tc="1">MALE</Gender>
+					<BirthDate>1950-07-30</BirthDate>
+				</Person>
+				<Address id="OMU_Address_1">
+					<AddressTypeCode tc="17">Postal</AddressTypeCode>
+					<Line1>10 Coborn Road</Line1>
+					<Line3>BOSKRUIN</Line3>
+					<Zip>2188</Zip>
+					<AddressCountry/>
+					<PrefAddr tc="0">False</PrefAddr>
+				</Address>
+				<Phone id="OMU_Phone_1">
+					<PhoneTypeCode tc="1">Home</PhoneTypeCode>
+					<DialNumber>0117932476</DialNumber>
+					<PrefPhone tc="0">False</PrefPhone>
+				</Phone>
+				<Phone id="OMU_Phone_2">
+					<PhoneTypeCode tc="2">Business</PhoneTypeCode>
+					<DialNumber>0113006590</DialNumber>
+					<PrefPhone tc="0">False</PrefPhone>
+				</Phone>
+				<Client>
+					<ClientTypeCode tc="1">Client</ClientTypeCode>
+					<PrefLanguage tc="9">ENGLISH</PrefLanguage>
+				</Client>
+				<EMailAddress id="OMU_EMailAddress_1">
+					<EMailType tc="2">Personal</EMailType>
+					<AddrLine>ALEX_LION@FMI.COM</AddrLine>
+					<PrefEMailAddr tc="0">False</PrefEMailAddr>
+				</EMailAddress>
+				<OLifEExtension VendorCode="FSE">
+					<MatchedParty tc="1">True</MatchedParty>
+				</OLifEExtension>
+			</Party>
+			<Party id="OMU_Party_2">
+				<FullName>MRS BEVERLEY LION</FullName>
+				<IDReferenceNo/>
+				<IDReferenceType tc="0">Unknown</IDReferenceType>
+				<Person>
+					<FirstName>BEVERLEY</FirstName>
+					<LastName>LION</LastName>
+					<Initials>BM</Initials>
+					<MarStat tc="1">MARRIED</MarStat>
+					<Gender tc="2">FEMALE</Gender>
+					<BirthDate>1955-08-03</BirthDate>
+				</Person>
+				<Client>
+					<ClientTypeCode tc="1">Client</ClientTypeCode>
+					<PrefLanguage tc="9">ENGLISH</PrefLanguage>
+				</Client>
+				
+			</Party>
+			<Party id="OMU_Party_3">
+				<FullName>MR ANDREW LION</FullName>
+				<IDReferenceNo>9111075069084</IDReferenceNo>
+				<IDReferenceType tc="0">Unknown</IDReferenceType>
+				<Person>
+					<FirstName>ANDREW</FirstName>
+					<LastName>LION</LastName>
+					<Initials>AD</Initials>
+					<MarStat tc="0">UNKNOWN</MarStat>
+					<Gender tc="1">MALE</Gender>
+					<BirthDate>1991-11-07</BirthDate>
+				</Person>
+				<Client>
+					<ClientTypeCode tc="1">Client</ClientTypeCode>
+					<PrefLanguage tc="9">ENGLISH</PrefLanguage>
+				</Client>
+				
+			</Party>
+			<Party id="OMU_Party_4">
+				<FullName>Old Mutual Life Assurance Company of South Africa</FullName>
+				<IDReferenceNo/>
+				<IDReferenceType tc="0">Unknown</IDReferenceType>
+				<Organization>
+					<OrgForm tc="5">Public Corporation</OrgForm>
+					<AbbrName>Old Mutual</AbbrName>
+				</Organization>
+				<Address id="OMU_Address_3">
+					<AddressTypeCode tc="9">Regional Office</AddressTypeCode>
+					<AddressCountry>South Africa</AddressCountry>
+					<PrefAddr tc="0"/>
+				</Address>
+				<Carrier id="OMU_Carrier_1">
+					<CarrierCode>OMU</CarrierCode>
+					<License id="OMU_License_1">
+						<LicenseCountry tc="27">South Africa</LicenseCountry>
+						<LineOfAuthority id="OMU_LineOfAuthority_1">
+							<LineOfAuthorityType tc="5">Life</LineOfAuthorityType>
+						</LineOfAuthority>
+					</License>
+				</Carrier>
+			</Party>
+			
+			<Party id="OMU_Party_5">
+				<FullName>MR NEEW ONNER</FullName>
+				<IDReferenceNo>9111075069083</IDReferenceNo>
+				<IDReferenceType tc="0">Unknown</IDReferenceType>
+				<Person>
+					<FirstName>NEEW</FirstName>
+					<LastName>ONNER</LastName>
+					<Initials>N</Initials>
+					<MarStat tc="0">UNKNOWN</MarStat>
+					<Gender tc="1">MALE</Gender>
+					<BirthDate>1991-11-07</BirthDate>
+				</Person>
+				<Client>
+					<ClientTypeCode tc="1">Client</ClientTypeCode>
+					<PrefLanguage tc="9">ENGLISH</PrefLanguage>
+				</Client>
+			</Party>		
+			
+			<Relation id="OMU_Relation_1" OriginatingObjectID="OMU_Holding_1" RelatedObjectID="OMU_Party_2">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+				<InterestPercent>75.00</InterestPercent>
+			</Relation>
+			<Relation id="OMU_Relation_2" OriginatingObjectID="OMU_Holding_1" RelatedObjectID="OMU_Party_3">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+				<InterestPercent>25.00</InterestPercent>
+			</Relation>
+			<Relation id="OMU_Relation_3" OriginatingObjectID="OMU_Holding_1" RelatedObjectID="OMU_Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Owner</RelationRoleCode>
+				<InterestPercent>100.00</InterestPercent>
+			</Relation>
+			<Relation id="OMU_Relation_4" OriginatingObjectID="OMU_Holding_1" RelatedObjectID="OMU_Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="241">Recipient (Correspondent)</RelationRoleCode>
+			</Relation>
+			<Relation id="OMU_Relation_5" OriginatingObjectID="OMU_Holding_1" RelatedObjectID="OMU_Party_2">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured</RelationRoleCode>
+				<InterestPercent>100.00</InterestPercent>
+			</Relation>
+			<Relation id="OMU_Relation_6" OriginatingObjectID="OMU_Holding_2" RelatedObjectID="OMU_Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Owner</RelationRoleCode>
+				<InterestPercent>100.00</InterestPercent>
+			</Relation>
+			<Relation id="OMU_Relation_7" OriginatingObjectID="OMU_Holding_2" RelatedObjectID="OMU_Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="241">Recipient (Correspondent)</RelationRoleCode>
+			</Relation>
+		<Holding id="OMU_Holding_3">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>GREENLIGHT Death Benefit/1</HoldingName>
+				<HoldingStatus tc="1">Active</HoldingStatus>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy>
+					<PolNumber>15626408/LSD/2</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="1">Whole Life</ProductType>
+					<ProductCode>LSD/1</ProductCode>
+					<CarrierCode>OMU</CarrierCode>
+					<PolicyStatus tc="1">Active</PolicyStatus>
+					<EffDate>2009-03-01</EffDate>
+					<StatusChangeDate>2009-03-01</StatusChangeDate>
+					<PaymentMode tc="4">Monthly</PaymentMode>
+					<PaymentAmt>1200.00</PaymentAmt>
+					<PaymentMethod tc="10">Debit Order</PaymentMethod>
+					<PaymentDueDate>2012-03-01</PaymentDueDate>
+					<!-- =============================================================== -->
+					<!-- AnnualIndexType 17                                                                                             -->
+					<!-- =============================================================== -->
+					<PremiumIndexRate>6.50</PremiumIndexRate>
+					<AnnualIndexType tc="17">Education CPI</AnnualIndexType>
+					<Life>
+						<QualPlanType tc="0">Unknown</QualPlanType>
+						<DeathBenefitAmt>900000.00</DeathBenefitAmt>
+						<Coverage id="OMU_Coverage_31" CarrierLicenseID="OMU_License_1">
+							<PlanName>Death Benefit</PlanName>
+							<ProductCode>LSD</ProductCode>
+							<LifeCovTypeCode tc="1">Whole Life Ordinary</LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<LivesType tc="0">Unknown</LivesType>
+							<!-- =============================================================== -->
+							<!-- New - DeathBenefitOptType = Include/Excluding Funeral Benefit                         -->
+							<!-- =============================================================== -->
+							<DeathBenefitOptType tc="1">Excludes FB</DeathBenefitOptType>
+							<CurrentAmt>900000.00</CurrentAmt>
+							<ModalPremAmt>1200.00</ModalPremAmt>
+							<EffDate>2009-03-01</EffDate>
+							</Coverage>
+						</Life>
+				</Policy>
+				</Holding>
+			<Relation id="OMU_Relation_33" OriginatingObjectID="OMU_Holding_3" RelatedObjectID="OMU_Party_5">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Owner</RelationRoleCode>
+				<InterestPercent>100.00</InterestPercent>
+			</Relation>
+			<Relation id="OMU_Relation_34" OriginatingObjectID="OMU_Holding_3" RelatedObjectID="OMU_Party_5">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="241">Recipient (Correspondent)</RelationRoleCode>
+			</Relation>
+			<Relation id="OMU_Relation_35" OriginatingObjectID="OMU_Holding_3" RelatedObjectID="OMU_Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured</RelationRoleCode>
+				<InterestPercent>100.00</InterestPercent>
+			</Relation>
+			<Relation id="OMU_Relation_95" OriginatingObjectID="OMU_Holding_3" RelatedObjectID="OMU_Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<!-- =============================================================== -->
+				<!--  New tc 312 Assignot                                                                                            -->
+				<!-- =============================================================== -->
+				<RelationRoleCode tc="312">Assignor</RelationRoleCode>
+			</Relation>
+		</OLifE>
+	</TXLifeResponse>
+</TXLife>

@@ -1,0 +1,633 @@
+
+	<TXLife> <TXLifeResponse> <VendorName tc="MOML"/>  <TransRefGUID>F895EFE7-0AFB-4D1D-9B9B-000023792044</TransRefGUID> <TransType tc="280" /> <TransResult> <ResultCode tc="1">Success</ResultCode> </TransResult>
+		<OLifE>
+			<Holding id="HoldingMOM_1">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>Pure Retirement Annuity</HoldingName>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy CarrierPartyID="MOM">
+					<PolNumber>85711576</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="301">Pure Retirement Annuity</ProductType>
+					<PolicyStatus tc="3">IN FORCE - PAID UP</PolicyStatus>
+					<EffDate>1991-03-01</EffDate>
+					<TermDate>2021-03-01</TermDate>
+					<Life>
+						<CashValueAmt>166109</CashValueAmt>
+						<DeathBenefitAmt>249383</DeathBenefitAmt>
+						<IndexCover tc="0"/>
+						<Coverage id="Coverage_1">
+							<PlanName>Retirement Annuity</PlanName>
+							<ProductCode>170G</ProductCode>
+							<LifeCovStatus tc="3">Paid Up</LifeCovStatus>
+							<LifeCovTypeCode tc="101">Retirement Annuity</LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<CashValue>166109.00</CashValue>
+							<EffDate>1991-03-01</EffDate>
+							<TermDate>2021-03-01</TermDate>
+						</Coverage>
+					</Life>
+				</Policy>
+				<Investment CarrierPartyID="MOM">
+					<SubAccount id="SubAccount_1" CarrierPartyID="MOM">
+						<PortfolioFullName>SMOOTH BONUS</PortfolioFullName>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+				</Investment>
+				<OLifEExtension VendorCode="FSE">
+					<IllustratedMaturityHigh>694444</IllustratedMaturityHigh>
+					<IllustratedMaturityLow>381772</IllustratedMaturityLow>
+				</OLifEExtension>
+			</Holding>
+			<Holding id="HoldingMOM_2">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>Pure Retirement Annuity</HoldingName>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy CarrierPartyID="MOM">
+					<PolNumber>90214532</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="301">Pure Retirement Annuity</ProductType>
+					<PolicyStatus tc="3">IN FORCE - PAID UP</PolicyStatus>
+					<EffDate>1997-10-01</EffDate>
+					<TermDate>2020-10-01</TermDate>
+					<Life>
+						<CashValueAmt>85054</CashValueAmt>
+						<DeathBenefitAmt>88299</DeathBenefitAmt>
+						<IndexCover tc="0"/>
+						<Coverage id="Coverage_2">
+							<PlanName>Retirement Annuity</PlanName>
+							<ProductCode>370N</ProductCode>
+							<LifeCovStatus tc="3">Paid Up</LifeCovStatus>
+							<LifeCovTypeCode tc="101">Retirement Annuity</LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<CashValue>85054.00</CashValue>
+							<EffDate>1997-10-01</EffDate>
+							<TermDate>2020-10-01</TermDate>
+						</Coverage>
+					</Life>
+				</Policy>
+				<Investment CarrierPartyID="MOM">
+					<SubAccount id="SubAccount_2" CarrierPartyID="MOM">
+						<PortfolioFullName>EQUITY</PortfolioFullName>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+				</Investment>
+				<OLifEExtension VendorCode="FSE">
+					<IllustratedMaturityHigh>236309</IllustratedMaturityHigh>
+					<IllustratedMaturityLow>132983</IllustratedMaturityLow>
+				</OLifEExtension>
+			</Holding>
+			<Holding id="HoldingMOM_3">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>Master Adaptor Retirement Annuity II</HoldingName>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy CarrierPartyID="MOM">
+					<PolNumber>SL28439530</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="301">Master Adaptor Retirement Annuity II</ProductType>
+					<PolicyStatus tc="3">IN FORCE - PAID UP</PolicyStatus>
+					<EffDate>1994-11-01</EffDate>
+					<TermDate>2019-11-01</TermDate>
+					<Life>
+						<CashValueAmt>3465</CashValueAmt>
+						<DeathBenefitAmt>4010</DeathBenefitAmt>
+						<IndexCover tc="0"/>
+						<Coverage id="Coverage_3">
+							<PlanName>Retirement Annuity</PlanName>
+							<ProductCode>RA2N</ProductCode>
+							<LifeCovStatus tc="3">Paid Up</LifeCovStatus>
+							<LifeCovTypeCode tc="101">Retirement Annuity</LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<CashValue>3465.00</CashValue>
+							<EffDate>1994-11-01</EffDate>
+							<TermDate>2019-11-01</TermDate>
+						</Coverage>
+					</Life>
+				</Policy>
+				<Investment CarrierPartyID="MOM">
+					<SubAccount id="SubAccount_3" CarrierPartyID="MOM">
+						<PortfolioFullName>Southern High Opportunity</PortfolioFullName>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+				</Investment>
+				<OLifEExtension VendorCode="FSE">
+					<IllustratedMaturityHigh>10746</IllustratedMaturityHigh>
+					<IllustratedMaturityLow>6366</IllustratedMaturityLow>
+				</OLifEExtension>
+			</Holding>
+			<Holding id="HoldingMOM_4">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>Pure Retirement Annuity</HoldingName>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy CarrierPartyID="MOM">
+					<PolNumber>200467590</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="301">Pure Retirement Annuity</ProductType>
+					<PolicyStatus tc="3">IN FORCE - PAID UP</PolicyStatus>
+					<EffDate>2003-03-01</EffDate>
+					<TermDate>2021-03-01</TermDate>
+					<Life>
+						<CashValueAmt>82363</CashValueAmt>
+						<DeathBenefitAmt>87155</DeathBenefitAmt>
+						<IndexCover tc="0"/>
+						<Coverage id="Coverage_4">
+							<PlanName>Retirement Annuity</PlanName>
+							<ProductCode>370N</ProductCode>
+							<LifeCovStatus tc="3">Paid Up</LifeCovStatus>
+							<LifeCovTypeCode tc="101">Retirement Annuity</LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<CashValue>82363.00</CashValue>
+							<EffDate>2003-03-01</EffDate>
+							<TermDate>2021-03-01</TermDate>
+						</Coverage>
+					</Life>
+				</Policy>
+				<Investment CarrierPartyID="MOM">
+					<SubAccount id="SubAccount_4" CarrierPartyID="MOM">
+						<PortfolioFullName>EQUITY</PortfolioFullName>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+				</Investment>
+				<OLifEExtension VendorCode="FSE">
+					<IllustratedMaturityHigh>242694</IllustratedMaturityHigh>
+					<IllustratedMaturityLow>133423</IllustratedMaturityLow>
+				</OLifEExtension>
+			</Holding>
+			<Holding id="HoldingMOM_5">
+				<HoldingTypeCode tc="4">Package</HoldingTypeCode>
+				<HoldingName>Myriad - Buy-and-sell Insurance                            </HoldingName>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy CarrierPartyID="MOM">
+					<PolNumber>202033713</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="101">Package</ProductType>
+					<ProductCode/>
+					<PolicyStatus tc="1">In force: Premium Paying                          </PolicyStatus>
+					<EffDate>2004-06-01</EffDate>
+					<PaymentAmt>106.58</PaymentAmt>
+				</Policy>
+			</Holding>
+			<Holding id="HoldingMOM_6">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>Myriad - Buy-and-sell Insurance                            </HoldingName>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="1">True</ComponentOfPackage>
+				<Policy CarrierPartyID="MOM">
+					<PolNumber>202033713/001</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="1">Death Benefit                                                                    (Cover Amount 500000)</ProductType>
+					<PolicyStatus tc="1">In force: Premium Paying                          </PolicyStatus>
+					<EffDate>2004-06-01</EffDate>
+					<PaidToDate>2009-04-01</PaidToDate>
+					<PaymentMode tc="4">Monthly        </PaymentMode>
+					<PaymentAmt>91.58</PaymentAmt>
+					<PaymentMethod tc="10">Debit order    </PaymentMethod>
+					<Life>
+						<Coverage id="Coverage_5">
+							<PlanName>Death Benefit                                                                   </PlanName>
+							<LifeCovStatus tc="1">In force: Premium Paying                          </LifeCovStatus>
+							<LifeCovTypeCode tc="1">Death Benefit                                                                   </LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<CurrentAmt>500000</CurrentAmt>
+							<EffDate>2004-06-01</EffDate>
+							<CovOption id="CovOption_1">
+								<PlanName>Compulsory Premium Increase</PlanName>
+								<LifeCovOptTypeCode tc="52">Compulsory Premium Increase</LifeCovOptTypeCode>
+								<OptionAmt>5.00</OptionAmt>
+							</CovOption>
+							<LifeParticipant PartyID="Party_5">
+								<ParticipantName>T          FENWICK                       </ParticipantName>
+								<LifeParticipantRoleCode tc="6">Insured Life</LifeParticipantRoleCode>
+							</LifeParticipant>
+						</Coverage>
+					</Life>
+				</Policy>
+				<Investment>
+					<SubAccount>
+						<PortfolioFullName/>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+					</SubAccount>
+				</Investment>
+			</Holding>
+			<Holding id="HoldingMOM_7">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>Investo Endowment</HoldingName>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<LiabilityValue>0.00</LiabilityValue>
+				<Policy CarrierPartyID="MOM">
+					<PolNumber>01002788307</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="302">Investo Endowment</ProductType>
+					<PolicyStatus tc="6">SURRENDERED</PolicyStatus>
+					<EffDate>2005-11-12</EffDate>
+					<TermDate>2015-11-12</TermDate>
+					<PaymentMode tc="4">Monthly</PaymentMode>
+					<PaymentAmt>605.00</PaymentAmt>
+					<PaymentMethod tc="10">Debit order</PaymentMethod>
+					<Life>
+						<MaxAvailableLoan>0.00</MaxAvailableLoan>
+						<NetSurrValueAmt>0.00</NetSurrValueAmt>
+						<CashValueAmt>0.00</CashValueAmt>
+						<DeathBenefitAmt>0.00</DeathBenefitAmt>
+						<IndexCover tc="1"/>
+						<OLifEExtension VendorCode="FSE">
+							<PremiumIndexRate>10.000</PremiumIndexRate>
+						</OLifEExtension>
+					</Life>
+				</Policy>
+				<OLifEExtension VendorCode="FSE">
+					<IllustratedMaturityHigh>0.00</IllustratedMaturityHigh>
+					<IllustratedMaturityLow>0.00</IllustratedMaturityLow>
+				</OLifEExtension>
+			</Holding>
+			<Holding id="HoldingMOM_8">
+				<HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+				<HoldingName>Retirement Annuity Max Investment II</HoldingName>
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<ComponentOfPackage tc="0">False</ComponentOfPackage>
+				<Policy CarrierPartyID="MOM">
+					<PolNumber>GE63185615</PolNumber>
+					<LineOfBusiness tc="1">Life</LineOfBusiness>
+					<ProductType tc="301">Retirement Annuity Max Investment II</ProductType>
+					<PolicyStatus tc="3">IN FORCE - PAID UP</PolicyStatus>
+					<EffDate>1997-09-01</EffDate>
+					<TermDate>2020-09-01</TermDate>
+					<Life>
+						<CashValueAmt>96694</CashValueAmt>
+						<DeathBenefitAmt>101784</DeathBenefitAmt>
+						<IndexCover tc="0"/>
+						<Coverage id="Coverage_6">
+							<PlanName>Retirement Annuity</PlanName>
+							<ProductCode>UR2N</ProductCode>
+							<LifeCovStatus tc="3">Paid Up</LifeCovStatus>
+							<LifeCovTypeCode tc="101">Retirement Annuity</LifeCovTypeCode>
+							<IndicatorCode tc="1">Base</IndicatorCode>
+							<CashValue>96694.00</CashValue>
+							<EffDate>1997-09-01</EffDate>
+							<TermDate>2020-09-01</TermDate>
+						</Coverage>
+					</Life>
+				</Policy>
+				<Investment CarrierPartyID="MOM">
+					<SubAccount id="SubAccount_5" CarrierPartyID="MOM">
+						<PortfolioFullName>Multi-Trust</PortfolioFullName>
+						<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						<OLifEExtension VendorCode="FSE">
+							<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+						</OLifEExtension>
+					</SubAccount>
+				</Investment>
+				<OLifEExtension VendorCode="FSE">
+					<IllustratedMaturityHigh>295314</IllustratedMaturityHigh>
+					<IllustratedMaturityLow>166967</IllustratedMaturityLow>
+				</OLifEExtension>
+			</Holding>
+			<Party id="Party_0">
+				<FullName>MR MJ Reeves</FullName>
+				<Person>
+					<LastName>MR MJ Reeves</LastName>
+				</Person>
+				<Phone>
+					<PhoneTypeCode tc="2">Business</PhoneTypeCode>
+					<AreaCode>021</AreaCode>
+					<DialNumber>7023626</DialNumber>
+				</Phone>
+			</Party>
+			<Party id="Party_1">
+				<FullName>Keeanu Reeves</FullName>
+				<IDReferenceNo>7410015004033</IDReferenceNo>
+				<Person>
+					<FirstName>Keeanu</FirstName>
+					<LastName>Reeves</LastName>
+					<Initials>K</Initials>
+					<MarStat tc="3">Divorced</MarStat>
+					<Gender tc="1">Male</Gender>
+					<BirthDate>1974-10-01</BirthDate>
+				</Person>
+				<Address id="ADDRESS_21">
+					<Line1>UNIT F4B WESTLAKE SQUARE</Line1>
+					<Line2>1 WESTLAKE DRIVE</Line2>
+					<Line3>TOKAI</Line3>
+					<Zip>7945</Zip>
+				</Address>
+				<Address id="ADDRESS_22">
+					<Line1>18 CHARLES WAY</Line1>
+					<Line2>CONSTANTIA</Line2>
+					<Zip>7806</Zip>
+				</Address>
+				<Phone>
+					<PhoneTypeCode tc="2">Work phone</PhoneTypeCode>
+					<AreaCode>021</AreaCode>
+					<DialNumber>7023626</DialNumber>
+				</Phone>
+				<Phone>
+					<PhoneTypeCode tc="4">Business Fax</PhoneTypeCode>
+					<AreaCode>021</AreaCode>
+					<DialNumber>7023633</DialNumber>
+				</Phone>
+				<Phone>
+					<PhoneTypeCode tc="1">Home phone</PhoneTypeCode>
+					<AreaCode>021</AreaCode>
+					<DialNumber>7942679</DialNumber>
+				</Phone>
+				<Phone>
+					<PhoneTypeCode tc="12">Cell phone</PhoneTypeCode>
+					<DialNumber>0836753697</DialNumber>
+				</Phone>
+				<Client>
+					<PrefLanguage tc="9">English</PrefLanguage>
+				</Client>
+				<EMailAddress>
+					<EMailType tc="2">E-mail address</EMailType>
+					<AddrLine>mReeves@iafrica.com</AddrLine>
+				</EMailAddress>
+			</Party>
+			<Party id="Party_2">
+				<FullName>null Reeves</FullName>
+				<IDReferenceNo>0</IDReferenceNo>
+				<Person>
+					<LastName>Reeves</LastName>
+					<Initials>C</Initials>
+				</Person>
+				<Client/>
+			</Party>
+			<Party id="Party_3">
+				<FullName>CAROLYN Reeves</FullName>
+				<IDReferenceNo>0</IDReferenceNo>
+				<Person>
+					<FirstName>CAROLYN</FirstName>
+					<LastName>Reeves</LastName>
+					<Initials>C</Initials>
+					<BirthDate>1955-07-04</BirthDate>
+				</Person>
+				<Client/>
+			</Party>
+			<Party id="Party_4">
+				<FullName>MJ         Reeves                                           </FullName>
+				<Person>
+					<FirstName>MJ         Reeves                                           </FirstName>
+					<LastName>Reeves                                           </LastName>
+					<Initials>K        </Initials>
+				</Person>
+				<Phone>
+					<PhoneTypeCode tc="2"/>
+					<AreaCode/>
+					<DialNumber>021  7023626</DialNumber>
+				</Phone>
+			</Party>
+			<Party id="Party_5">
+				<FullName>null FENWICK                       </FullName>
+				<Person>
+					<LastName>FENWICK                       </LastName>
+					<Initials>T         </Initials>
+					<Title>MRS            </Title>
+					<BirthDate>1973-06-01</BirthDate>
+				</Person>
+			</Party>
+			<Party id="Party_6">
+				<FullName/>
+				<Person>
+					<LastName>GOLDEN REWARDS 705CC TRADING AS DIAGONAL INSURANCE</LastName>
+					<Initials/>
+					<Title/>
+				</Person>
+			</Party>
+			<Party id="Party_7">
+				<FullName>MJ         Reeves                                           </FullName>
+				<IDReferenceNo>7410015004033</IDReferenceNo>
+				<Person>
+					<LastName>Reeves                                           </LastName>
+					<Initials>K        </Initials>
+					<Title>MR             </Title>
+					<BirthDate>1974-10-01</BirthDate>
+				</Person>
+				<Address id="ADDRESS_16">
+					<Line1>F4B WESTLAKE SQUARE                     </Line1>
+					<Line2>1 WESTLAKE DRIVE    </Line2>
+					<Line3>TOKAI               </Line3>
+					<Zip>7945</Zip>
+				</Address>
+				<Phone>
+					<PhoneTypeCode tc="2">Business</PhoneTypeCode>
+					<DialNumber>(021) 7023626       </DialNumber>
+				</Phone>
+				<Phone>
+					<PhoneTypeCode tc="1">Home</PhoneTypeCode>
+					<DialNumber>(021) 7942679       </DialNumber>
+				</Phone>
+				<Phone>
+					<PhoneTypeCode tc="12">Mobile</PhoneTypeCode>
+					<DialNumber>0836753697          </DialNumber>
+				</Phone>
+				<Phone>
+					<PhoneTypeCode tc="15">Home fax</PhoneTypeCode>
+					<DialNumber/>
+				</Phone>
+				<Phone>
+					<PhoneTypeCode tc="4">Business fax</PhoneTypeCode>
+					<DialNumber>(021) 7023633       </DialNumber>
+				</Phone>
+				<Client>
+					<PrefLanguage tc="9">English</PrefLanguage>
+				</Client>
+				<EMailAddress>
+					<AddrLine>mReeves@iafrica.com                                                                                </AddrLine>
+				</EMailAddress>
+			</Party>
+			<Party id="Party_8">
+				<FullName/>
+				<Person>
+					<LastName/>
+					<Initials/>
+					<Title/>
+				</Person>
+			</Party>
+			<Party id="Party_9">
+				<FullName>MJ Reeves</FullName>
+				<Person>
+					<LastName>MJ Reeves</LastName>
+				</Person>
+				<Phone>
+					<PhoneTypeCode tc="2">Work phone</PhoneTypeCode>
+					<DialNumber>0217023626</DialNumber>
+				</Phone>
+			</Party>
+			<Party id="Party_10">
+				<FullName>MRS C Reeves</FullName>
+				<IDReferenceNo>5507040070186</IDReferenceNo>
+				<Person>
+					<LastName>MRS C Reeves</LastName>
+					<BirthDate>1955-07-04</BirthDate>
+				</Person>
+			</Party>
+			<Party id="Party_11">
+				<FullName>C Reeves</FullName>
+				<IDReferenceNo>0</IDReferenceNo>
+				<Person>
+					<FirstName>C</FirstName>
+					<LastName>Reeves</LastName>
+					<Initials>C</Initials>
+				</Person>
+				<Client/>
+			</Party>
+			<Party id="MOM">
+				<FullName>Momentum</FullName>
+				<Organization>
+					<AbbrName>Momentum</AbbrName>
+					<DBA>Momentum</DBA>
+				</Organization>
+				<Carrier>
+					<CarrierCode>MOM</CarrierCode>
+					<CarrierForm tc="1">Direct Carrier</CarrierForm>
+				</Carrier>
+			</Party>
+			<Relation id="Relation_1" OriginatingObjectID="HoldingMOM_1" RelatedObjectID="Party_0">
+				<OriginatingObjectType tc="6">Party</OriginatingObjectType>
+				<RelatedObjectType tc="104">Broker</RelatedObjectType>
+				<RelationRoleCode tc="104">Broker</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_2" OriginatingObjectID="HoldingMOM_1" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured life</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_3" OriginatingObjectID="HoldingMOM_1" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Policy Holder</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_4" OriginatingObjectID="HoldingMOM_2" RelatedObjectID="Party_0">
+				<OriginatingObjectType tc="6">Party</OriginatingObjectType>
+				<RelatedObjectType tc="104">Broker</RelatedObjectType>
+				<RelationRoleCode tc="104">Broker</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_5" OriginatingObjectID="HoldingMOM_2" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured life</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_6" OriginatingObjectID="HoldingMOM_2" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Policy Holder</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_7" OriginatingObjectID="HoldingMOM_2" RelatedObjectID="Party_2">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_8" OriginatingObjectID="HoldingMOM_3" RelatedObjectID="Party_0">
+				<OriginatingObjectType tc="6">Party</OriginatingObjectType>
+				<RelatedObjectType tc="104">Broker</RelatedObjectType>
+				<RelationRoleCode tc="104">Broker</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_9" OriginatingObjectID="HoldingMOM_3" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured life</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_10" OriginatingObjectID="HoldingMOM_3" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Policy Holder</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_11" OriginatingObjectID="HoldingMOM_3" RelatedObjectID="Party_3">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_12" OriginatingObjectID="HoldingMOM_4" RelatedObjectID="Party_0">
+				<OriginatingObjectType tc="6">Party</OriginatingObjectType>
+				<RelatedObjectType tc="104">Broker</RelatedObjectType>
+				<RelationRoleCode tc="104">Broker</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_13" OriginatingObjectID="HoldingMOM_4" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured life</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_14" OriginatingObjectID="HoldingMOM_4" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Policy Holder</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_15" OriginatingObjectID="HoldingMOM_4" RelatedObjectID="Party_3">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_16" OriginatingObjectID="HoldingMOM_6" RelatedObjectID="Party_4">
+				<OriginatingObjectType tc="6">Party</OriginatingObjectType>
+				<RelatedObjectType tc="104">Broker</RelatedObjectType>
+				<RelationRoleCode tc="104">Broker</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_17" OriginatingObjectID="HoldingMOM_6" RelatedObjectID="Party_5">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured Life</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_18" OriginatingObjectID="HoldingMOM_5" RelatedObjectID="HoldingMOM_6">
+				<RelatedObjectType tc="4">Holding</RelatedObjectType>
+				<RelationRoleCode tc="50">Package Component</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_19" OriginatingObjectID="HoldingMOM_6" RelatedObjectID="Party_6">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="31">Premium Payer</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_20" OriginatingObjectID="HoldingMOM_6" RelatedObjectID="Party_7">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Policy Holder</RelationRoleCode>
+				<InterestPercent>100.000</InterestPercent>
+			</Relation>
+			<Relation id="Relation_21" OriginatingObjectID="HoldingMOM_6" RelatedObjectID="Party_8">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="34">Beneficiary of Ownership</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_22" OriginatingObjectID="HoldingMOM_7" RelatedObjectID="Party_9">
+				<OriginatingObjectType tc="6">Party</OriginatingObjectType>
+				<RelatedObjectType tc="104">Broker</RelatedObjectType>
+				<RelationRoleCode tc="104">Broker</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_23" OriginatingObjectID="HoldingMOM_7" RelatedObjectID="Party_7">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Investment Owner</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_24" OriginatingObjectID="HoldingMOM_7" RelatedObjectID="Party_7">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured Life</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_25" OriginatingObjectID="HoldingMOM_7" RelatedObjectID="Party_10">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_26" OriginatingObjectID="HoldingMOM_8" RelatedObjectID="Party_0">
+				<OriginatingObjectType tc="6">Party</OriginatingObjectType>
+				<RelatedObjectType tc="104">Broker</RelatedObjectType>
+				<RelationRoleCode tc="104">Broker</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_27" OriginatingObjectID="HoldingMOM_8" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="32">Insured life</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_28" OriginatingObjectID="HoldingMOM_8" RelatedObjectID="Party_1">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="8">Policy Holder</RelationRoleCode>
+			</Relation>
+			<Relation id="Relation_29" OriginatingObjectID="HoldingMOM_8" RelatedObjectID="Party_11">
+				<RelatedObjectType tc="6">Party</RelatedObjectType>
+				<RelationRoleCode tc="34">Beneficiary</RelationRoleCode>
+			</Relation>
+			<Currency id="C001">
+				<CurrencyTypeCode tc="710">ZAR (Rand)</CurrencyTypeCode>
+				<IntlSymbol>ZAR</IntlSymbol>
+				<CurrencySymbol>R</CurrencySymbol>
+				<DecimalSep>.</DecimalSep>
+				<NumDigits>2147483647</NumDigits>
+			</Currency>
+		</OLifE>
+	</TXLifeResponse> </TXLife>
